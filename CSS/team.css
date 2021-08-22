@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+#team{
+    padding-top: 40px;
+    padding-bottom: 80px;
+    background-color: rgb(199, 199, 199);
+}
+
+#team h2{
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+#team .row{
+    width: 50%;
+    margin: auto;
+}
+
+#team .card{
+    width: 200px;
+    background-color: rgb(199, 199, 199);
+    border: none;
+}
+
+#team .card-img-top{
+    border-radius: 50%;
+}
+
+#team .team-img{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+#team .middle{
+    width: 150px;
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    transform: translate(-47%, -50%);
+    -ms-transform: translate(-50%, -50%); 
+}
+
+#team .middle a{
+    text-decoration: none;
+    font-size: 30px;
+    padding: 9px;
+}
+
+#team .card:hover .team-img{
+    opacity: 0.4;
+     transition: transform .2s;
+    transform: scale(1.05);
+}
+
+#team .card:hover .middle{
+    opacity: 1;
+}
+
+#team .card-body h4{
+    text-align: center;
+    font-family: Poppins;
+}
+
+#team .card-body p{
+    text-align: center;
+    font-family: Poppins;
+}

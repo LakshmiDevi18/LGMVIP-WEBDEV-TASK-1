@@ -1,0 +1,60 @@
+#footer{
+    background-color: rgb(43, 43, 43)
+}
+
+#row5{
+    width: 60%;
+    margin: auto;
+}
+
+#row5 .card{
+    padding-top: 20px;;
+    border: none;
+    background-color: transparent;
+}
+
+#row5 .card-body{
+    color: #fff;
+    text-align: center;
+}
+
+#row5 h5{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#row5 .card-caption .fab{
+    text-decoration: none;
+    font-size: 24px;
+    padding: 6px;
+}
+
+#row5 .card-caption .fab:hover{
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+
+#row5 .card-caption .fa-facebook{
+    color: #4267B2;
+}
+
+#row5 .card-caption .fa-twitter{
+    color: #1DA1F2;
+}
+
+#row5 .card-caption .fa-youtube{
+    color: #FF0000;
+}
+
+#row5 .card-caption .fa-linkedin{
+    color: #2867B2;
+}
+
+#row5 .card-caption .fa-github{
+    color: #FFFFFF; 
+}
+
+#row5 .card-caption .fa-google-plus-g{
+    color: #DB4437;
+}
+

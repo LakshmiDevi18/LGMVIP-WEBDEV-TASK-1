@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+#videos{
+	margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    background-color: #a505e4;
+}
+
+#videos h1{
+	text-align: center;
+    color: #fff;
+    font-family: Montserrat;
+}
+
+#videos .owl-carousel{
+	top: 40px;
+}
+
+#videos .owl-carousel .item-video{
+	height: 400px;
+    padding: 12px;
+}
+
+#videos .owl-carousel .item-video:hover{
+	  transition: transform .2s;
+    transform: scale(1.05);
+}
+
+#videos .owl-dots{
+	text-align: center;
+	margin-top: 20px;
+}
+
+#videos .owl-dot{
+	display: inline-block;
+}
+
+#videos .owl-dot span{
+	width: 11px;
+	height: 11px;
+	background: #fff;
+	border-radius: 50%;
+	display: block;
+	margin: 5px 3px;
+}
+
+#videos .owl-dot.active span{
+	background-color: #a505e4;
+    border: 2px solid #fff;
+}

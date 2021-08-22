@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+#blogs{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#blogs h2{
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#blogs #row4{
+    width:65%;
+    margin: auto;
+}
+
+#blogs .card{
+    border: none;
+    background-color: white;
+}
+
+#blogs .card-body{
+    text-align: center;
+}
+
+#blogs .card:hover{
+    transition: transform .2s;
+    transform: scale(1.05);
+    box-shadow: 5px 10px 30px #36363648;
+}
+
+#row4 .btn {
+  background-color: #4CAF50; 
+  border: none;
+  border-radius: 0;
+  color: white;
+  padding: 12px 26px;
+  font-family: 'poppins', sans-serif;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#row4 .btn4 {
+  background-color: #ffffff; 
+  color: #a505e4; 
+}
+
+#row4 .btn4:hover {
+  background-color: #a505e4;
+  color: #ffffff;
+  box-shadow: 5px 10px 30px #36363648;
+}
